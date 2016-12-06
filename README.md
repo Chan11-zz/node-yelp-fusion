@@ -7,7 +7,7 @@ npm install node-yelp-fusion --save
 ```
 ## Usage
 ```javascript
-var Yelp = require('yelp');
+var Yelp = require('node-yelp-fusion');
 var yelp=new Yelp({ id:key , secret:secret });
 ```
 ###### [General search parameters](https://www.yelp.com/developers/documentation/v3/business_search)
