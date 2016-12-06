@@ -44,7 +44,7 @@ YelpFusion.prototype.getAccessToken = function getAccessToken(){
 YelpFusion.prototype.getYelp = function getYelp(getMe){
 
     return new Promise(function(resolve,reject){
-       console.log("in getYelp");
+        
         axios.get(this.apiUrl+getMe,{
 
              headers:{
@@ -56,7 +56,7 @@ YelpFusion.prototype.getYelp = function getYelp(getMe){
          })
          .then(function(response) {
 
-                resolve(response.data); console.log("resolved getYelp");
+                resolve(response.data);
 
          })
          .catch(function(err){
