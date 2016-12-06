@@ -1,0 +1,21 @@
+{
+  "name": "node-yelp-fusion",
+  "version": "1.0.0",
+  "description": "Node.js module for interfacing with Yelp's API v3.0(Fusion)",
+  "main": "node-yelp-fusion.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Yelp",
+    "Yelp-api",
+    "Yelp-Fusion",
+    "node-yelp"
+  ],
+  "author": "Chandrahas",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.15.3",
+    "querystring": "^0.2.0"
+  }
+}
